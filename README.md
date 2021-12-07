@@ -65,9 +65,17 @@
     }
     </script>`
 ###API
-##### `items Array  奖品列表
-            rate   Number  扇形分割的比例，happy-draw会算出该奖品占总和的比例
-            slots  String  自定义奖品内容
-            color  String  该处奖品的背景颜色
+    |字段名  |字段类型   |字段描述|
+    |:--    |:--     |:--   |
+    |items  |Array   |奖品列表|
+    |rate   |Number  |扇形分割的比例，happy-draw会算出该奖品占总和的比例|
+    |slots  |String  |自定义奖品内容|
+    |color  |String  |该处奖品的背景颜色|
+    |text   |String  |奖品文案|
+    |offset |Number  |奖品上下移动的距离|
+    |interval   |Number |圆盘每转一圈所需时间|
+    |offset     |Number   |奖品上下移动的距离| 
+    |size       |Number   |奖品字体大小|
+    |delay      |Number  |停止抽奖后圆盘的延迟转动时间|
       
 有用请Star
