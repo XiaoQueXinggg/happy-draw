@@ -64,18 +64,16 @@
           });
     }
     </script>`
-###API
-    |字段名  |字段类型   |字段描述|
-    |:--    |:--     |:--   |
-    |items  |Array   |奖品列表|
-    |rate   |Number  |扇形分割的比例，happy-draw会算出该奖品占总和的比例|
-    |slots  |String  |自定义奖品内容|
-    |color  |String  |该处奖品的背景颜色|
-    |text   |String  |奖品文案|
-    |offset |Number  |奖品上下移动的距离|
-    |interval   |Number |圆盘每转一圈所需时间|
-    |offset     |Number   |奖品上下移动的距离| 
-    |size       |Number   |奖品字体大小|
-    |delay      |Number  |停止抽奖后圆盘的延迟转动时间|
+### API
+>`slots`<font color=green >\<String\></font>自定义奖品内容，默认值为空。<br>
+>`color`<String>该处奖品的背景颜色，默认值为空。<br>
+>`text`<String>奖品文案,默认值为空。<br>
+>`offset`<Number>奖品上下移动的距离,默认值为0。<br>
+>`interval`<Number>圆盘每转一圈所需时间,默认值为800,单位ms<br>
+>`offset`<Number>奖品上下移动的距离,默认值0 <br>
+>`size`<Number>奖品字体大小,默认值14<br>
+>`delay`<Number>停止抽奖后圆盘的延迟转动时间,默认值3，单位s<br>
+>`items`<Array>奖品列表，默认值为[]<br>
+>>`rate`<Number>扇形分割的比例，happy-draw会算出该奖品占总和的比例,默认值0。<br>
       
 有用请Star
