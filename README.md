@@ -75,5 +75,6 @@
 >`delay`<Number>停止抽奖后圆盘的延迟转动时间,默认值3，单位s<br>
 >`items`<Array>奖品列表，默认值为[]<br>
 >>`rate`<Number>扇形分割的比例，happy-draw会算出该奖品占总和的比例,默认值0。<br>
+>>`slots`<String>自定以奖品内容,默认为空<br>
       
 有用请Star
